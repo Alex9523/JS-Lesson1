@@ -21,6 +21,7 @@ function discr(a, b, c) {
     }
     else {
         document.writeln("discriminant < 0");
+        return null;
     }
 }
 
@@ -28,6 +29,6 @@ let digit_a = prompt('Enter digit a', 0);
 let digit_b = prompt('Enter digit b', 0);
 let digit_c = prompt('Enter digit c', 0);
 
-var [x, y] = discr(digit_a, digit_b, digit_c);
+let [x, y] = discr(digit_a, digit_b, digit_c);
 document.writeln("First x = " + x);
 document.write("Second x = " + y);
