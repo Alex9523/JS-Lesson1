@@ -1,31 +1,3 @@
-//for(let i=0;i<10;i++)
-//alert("hello world");
-//document.write("Hello world");
-//console.log("hello world");
-/*
-let nameProduct="Computer";
-let priceProduct=100;
-let isAvailable = true;
-document.write(priceProduct *= 0.9);
-*/
-
-
-
-
-/*function getName(){
-var yourName = document.getElementById("name").value;
-document.writeln(yourName);
-alert(yourName)
-}*/
-
-// var quantity = document.getElementById("quantity").value; // Объявляем переменную равную значению введенному в поле количество
-
-
-// document.writeln(quantity);
-// console.log(quantity);
-
-
-
 function discr(a, b, c) {
     document.writeln("Your equation : " + a + "x*x + (" + b + "x) + (" + c + ") = 0");
 
@@ -52,11 +24,9 @@ function discr(a, b, c) {
     }
 }
 
-
 let digit_a = prompt('Enter digit a', 0);
 let digit_b = prompt('Enter digit b', 0);
 let digit_c = prompt('Enter digit c', 0);
-
 
 var [x, y] = discr(digit_a, digit_b, digit_c);
 document.writeln("First x = " + x);
